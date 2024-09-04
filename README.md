@@ -24,7 +24,3 @@ O projeto está organizado da seguinte maneira:
 
 Para começar a explorar e aprender com este projeto, siga os passos abaixo:
 
-1. **Clone o repositório**
-
-   ```bash
-   git clone https://github.com/seu-usuario/aprendendo-apis.git
