@@ -17,3 +17,7 @@ O objetivo deste projeto é fornecer recursos e exercícios que ajudem a aprende
 O projeto está organizado da seguinte maneira:
 
 - **/exemplos**: Contém exemplos de requisições e respostas para diversas APIs públicas.
+ ## Requisitos
+
+ Javascript intermediário
+ Noção basica do React
