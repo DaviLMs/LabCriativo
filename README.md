@@ -17,10 +17,3 @@ O objetivo deste projeto é fornecer recursos e exercícios que ajudem a aprende
 O projeto está organizado da seguinte maneira:
 
 - **/exemplos**: Contém exemplos de requisições e respostas para diversas APIs públicas.
-- **/desafios**: Oferece desafios práticos para ajudar a consolidar o aprendizado sobre APIs.
-- **/tutoriais**: Tutoriais passo a passo que cobrem conceitos e técnicas essenciais.
-
-## Como Começar
-
-Para começar a explorar e aprender com este projeto, siga os passos abaixo:
-
