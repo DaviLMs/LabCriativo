@@ -1,0 +1,27 @@
+No login a pagina Page.js e a pricipal logo vai comecar por ela.
+dummyjson e o site que usaremos as apis
+
+Para voce entender vou explicar a base de como se chamar api
+começamos com um try para ele tentar executar aquilo que está dentro dele primeiro
+e o fetch e usado para chamar a api 
+
+_____________________________________________________________________________________________
+ const response = await fetch('https://dummyjson.com/user/login', { // url
+        method: 'POST', // metodo
+        headers: { // cabecalho que faz a requisição de login
+          'Content-Type': 'application/json', //aqui passa o formato que e content-type
+        },
+        body: JSON.stringify(body), // aqui passa o conteudo que e o username e password
+      });
+_____________________________________________________________________________________________
+
+  if (!response.ok) {
+        throw new Error(`Erro no servidor: ${response.status}`); 
+      }
+_____________________________________________________________________________________________
+ 
+ se for diferente de ok (200) vai mostrar um erro 
+_____________________________________________________________________________________________
+  const contentType = response.headers.get('Content-Type'); 
+_____________________________________________________________________________________________
+Mostra para o serve qual tipo de informação vai pegar

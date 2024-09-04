@@ -51,25 +51,33 @@ export default function Home() {
   }
 
   return (
-    <div style={{ gap: '5px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1 }} >
-      <h1 style={{ width: '100%', textAlign: 'center' }}>Login</h1>
-      <input style={{ marginBottom: '20px' }}
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        type="text"
-        placeholder="Username"
-      />
-      <input
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        type="password"
-        placeholder="Password"
-      />
-      <button onClick={login} disabled={loading}>
-        {loading ? <span>Loading...</span> : <h1>Login</h1>}
-      </button>
-      {successMessage && <p >{successMessage}</p>}
-      {error && <p >{error}</p>}
+
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+      <div style={{ gap: '5px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1 }} >
+        <h1 style={{ width: '100%', textAlign: 'center' }}>Login</h1>
+        <input style={{ marginBottom: '20px' }}
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          type="text"
+          placeholder="Username"
+        />
+        <input
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          type="password"
+          placeholder="Password"
+        />
+        <button style={{ padding: '10px', backgroundColor: 'blue', color: 'white', border: 'none', borderRadius: '5px' }} onClick={login} disabled={loading}>
+          {loading ? <span>Loading...</span> : <h1>Login</h1>}
+        </button>
+        {successMessage && <p >{successMessage}</p>}
+        {error && <p >{error}</p>}
+      </div>
+      <p>
+        nome: emilys
+        <br />
+        senha: 'emilyspass'
+      </p>
     </div>
   );
 }
