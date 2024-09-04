@@ -1,37 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aprendendo APIs
 
-## Getting Started
+Bem-vindo ao **Aprendendo APIs**! Este projeto foi criado para ajudar desenvolvedores a entender e praticar o uso de APIs de forma prática e divertida. Aqui, você encontrará exemplos, tutoriais e desafios que cobrem diferentes aspectos do desenvolvimento e consumo de APIs.
 
-First, run the development server:
+## Objetivo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O objetivo deste projeto é fornecer recursos e exercícios que ajudem a aprender:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- O que são APIs e como funcionam
+- Como fazer requisições a APIs
+- Como interpretar respostas de APIs
+- Como integrar APIs em projetos reais
+- Melhores práticas e técnicas para trabalhar com APIs
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+O projeto está organizado da seguinte maneira:
 
-## Learn More
+- **/exemplos**: Contém exemplos de requisições e respostas para diversas APIs públicas.
+- **/desafios**: Oferece desafios práticos para ajudar a consolidar o aprendizado sobre APIs.
+- **/tutoriais**: Tutoriais passo a passo que cobrem conceitos e técnicas essenciais.
 
-To learn more about Next.js, take a look at the following resources:
+## Como Começar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para começar a explorar e aprender com este projeto, siga os passos abaixo:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone o repositório**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# LabCriativo
+   ```bash
+   git clone https://github.com/seu-usuario/aprendendo-apis.git
